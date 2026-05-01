@@ -50,13 +50,13 @@ public class ChronomancerEngine {
         System.out.printf("   Crystal sealed. Caretaker holds %d memento(s).%n", caretaker.size());
         System.out.println("   Before trap: " + hero.status());
 
-        System.out.println("\n>> !! RUNE TRAP SPRINGS — arcane backlash hits the party !!");
+        System.out.println("\n>> !! RUNE TRAP SPRINGS - arcane backlash hits the party !!");
         hero.takeDamage(45);
         hero.spendMana(30);
         hero.spendGold(80);
         System.out.println("   After trap:  " + hero.status());
 
-        System.out.println("\n>> Crystal pulses — REWINDING " + hero.getName() + " to prior state...");
+        System.out.println("\n>> Crystal pulses - REWINDING " + hero.getName() + " to prior state...");
         hero.restoreFromMemento(caretaker.undo());
         System.out.println("   Restored:    " + hero.status());
         System.out.printf("   Caretaker now holds %d memento(s).%n", caretaker.size());

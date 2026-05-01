@@ -8,7 +8,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("=== Homework 9 — Chronomancer's Vault: Visitor + Memento ===");
+        System.out.println("=== Homework 9 - Chronomancer's Vault: Visitor + Memento ===");
 
         Hero theron = new Hero("Kazuha", 120, 60, 25, 15, 300, null);
         Hero sylara = new Hero("Raiden", 80, 200, 10, 8, 150, null);
